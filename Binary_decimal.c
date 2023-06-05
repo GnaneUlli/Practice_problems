@@ -16,7 +16,7 @@ int binaryToDecimal(long long binaryNumber) {
         
         binaryNumber /= 10;
         
-        base =base * 2;
+        base = base * 2;
     }
 
     return decimalNumber;
