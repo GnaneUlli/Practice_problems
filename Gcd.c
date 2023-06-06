@@ -2,15 +2,15 @@
 
 int gcd(int num1, int num2) {
   
-    int remainder;
+    int rem;
     
     while (num2 != 0) {
       
-        remainder = num1 % num2;
+        rem = num1 % num2;
       
         num1 = num2;
       
-        num2 = remainder;
+        num2 = rem;
     }
     
     return num1;
