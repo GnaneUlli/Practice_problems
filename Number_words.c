@@ -55,6 +55,7 @@ void printOnesPlace(int num) {
 }
 
 void printTeens(int num) {
+    
     switch (num) {
         case 10:
             printf("ten");
