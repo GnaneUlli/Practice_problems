@@ -6,9 +6,9 @@ int evenloop(int csk){
     
     int i,j;
     
-    for(i=1;i<=csk;i++){
+    for(i = 1; i <= csk;i++){
         
-        if(i%2==0){
+        if(i%2 == 0){
             
             printf("%d ",i);
         }
